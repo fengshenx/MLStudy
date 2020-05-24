@@ -478,8 +478,8 @@ def optimize(w, b, X, Y, num_iterations, learning_rate, print_cost = False):
         
         # update rule (≈ 2 lines of code)
         ### START CODE HERE ###
-        w = w-learning_rate*dw
-        b = b-learning_rate*db
+        w = w - learning_rate*dw
+        b = b - learning_rate*db
         ### END CODE HERE ###
         
         # Record the costs
